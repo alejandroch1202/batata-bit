@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)" />
     <link
       rel="shortcut icon"
       href="./assets/img/favicon.svg"
@@ -20,7 +21,7 @@
   </head>
   <body>
     <header>
-      <img src="./assets/img/logo.svg" alt="logo" />
+      <img loading="“lazy”" src="./assets/img/logo.svg" alt="logo" />
       <div class="header--title-container">
         <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
         <p>
@@ -79,8 +80,6 @@
               <p><b>Actualizado:</b> 19 Julio 23:45</p>
             </div>
           </div>
-
-          <!-- --------------------------------------- -->
 
           <div class="main-commission-table">
             <p class="main-commission-table--title">Comisiones</p>
@@ -205,6 +204,28 @@
         </section>
       </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <section class="footer-left">
+        <ul>
+          <li>
+            <a href="#">LinkedIn</a>
+          </li>
+          <li>
+            <a href="#">CrunchBase</a>
+          </li>
+          <li>
+            <a href="#">HackerNews</a>
+          </li>
+        </ul>
+      </section>
+      <section class="footer-right">
+        <img
+          loading="“lazy”"
+          src="./assets/img/logo-footer.svg"
+          alt="Logo Batata Bit "
+        />
+      </section>
+    </footer>
   </body>
 </html>
